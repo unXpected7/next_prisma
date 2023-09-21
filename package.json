@@ -31,6 +31,10 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
     "@types/bcrypt": "^5.0.0"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   }
 }
